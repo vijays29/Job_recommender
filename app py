@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Load job dataset (replace with actual job dataset)
 # The dataset should contain 'job_title' and 'skills_required' columns
-df = pd.read_csv('jobs_dataset.csv')  # Replace with your actual file
+df = pd.read_csv('jobs.csv')  # Replace with your actual file
 
 # Streamlit app
 st.title("Job Recommender System")
